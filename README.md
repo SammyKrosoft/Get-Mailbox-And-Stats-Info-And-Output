@@ -19,11 +19,11 @@ $OutputFile = "C:\temp\test_$StrDate.csv"
 $strOrgUnit = "OU=CanadaUsers,DC=CanadaDrey,DC=ca"
 ```
 
-The output looks like the following:
+The output in the csv file looks like the following:
 
 ![image](https://user-images.githubusercontent.com/33433229/192116263-b3ab06c0-2cdc-4b44-ba8c-f34615ca6c85.png)
 
-And if you import that output in PowerShell and display it as a table (as in ```Import-CSV c:\temp\test_09242022_1359.csv | Format-Table``` for example) you would see something similar to the below:
+And if you import that output in PowerShell and display it as a table (as in ```Import-CSV c:\temp\test_09242022_1359.csv | Format-Table``` for example) you would see something similar to the below - you can also put that Import-CSV into a variable to use, filter, browse the data within PowerShell :
 
 ![image](https://user-images.githubusercontent.com/33433229/192116312-20fd832a-73e1-4c20-8f34-d3f3fd71e13c.png)
 
