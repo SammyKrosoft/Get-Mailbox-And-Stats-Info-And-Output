@@ -19,4 +19,12 @@ $OutputFile = "C:\temp\test_$StrDate.csv"
 $strOrgUnit = "OU=CanadaUsers,DC=CanadaDrey,DC=ca"
 ```
 
+The output looks like the following:
+![image](https://user-images.githubusercontent.com/33433229/192116263-b3ab06c0-2cdc-4b44-ba8c-f34615ca6c85.png)
+
+And if you import that output in PowerShell and display it as a table (as in ```Import-CSV c:\temp\test_09242022_1359.csv``` for example) you would see something similar to the below:
+
+![image](https://user-images.githubusercontent.com/33433229/192116312-20fd832a-73e1-4c20-8f34-d3f3fd71e13c.png)
+
+
 => [Download OutputMailboxesInfoFromSpecificOU.ps1 here](https://raw.githubusercontent.com/SammyKrosoft/Get-Mailbox-And-Stats-Info-And-Output/main/OutputMailboxesInfoFromSpecificOU.ps1) (or from the repository)
