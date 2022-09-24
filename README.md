@@ -20,6 +20,7 @@ $strOrgUnit = "OU=CanadaUsers,DC=CanadaDrey,DC=ca"
 ```
 
 The output looks like the following:
+
 ![image](https://user-images.githubusercontent.com/33433229/192116263-b3ab06c0-2cdc-4b44-ba8c-f34615ca6c85.png)
 
 And if you import that output in PowerShell and display it as a table (as in ```Import-CSV c:\temp\test_09242022_1359.csv``` for example) you would see something similar to the below:
